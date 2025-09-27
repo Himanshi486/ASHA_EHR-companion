@@ -3,7 +3,7 @@
 
 A lightweight Android mobile application designed for ASHA workers and PHC staff in rural India, focused on managing electronic health records (EHR) in low or no-internet environments.
 
-## 🏥 App Overview
+## App Overview
 
 - **Name**: EHR Companion
 - **Platform**: Android (Kotlin + Jetpack Compose)
@@ -11,45 +11,45 @@ A lightweight Android mobile application designed for ASHA workers and PHC staff
 - **Architecture**: Offline-first with automatic synchronization
 - **Target Users**: ASHA Workers, PHC Staff, Healthcare Administrators
 
-## ✨ Core Features
+## Core Features
 
-### 🔒 **Offline-First Architecture**
+### **Offline-First Architecture**
 - Patient data securely stored locally using SQLite
 - Works seamlessly without internet connectivity
 - Automatic data synchronization when connection is restored
 
-### 🎤 **Voice Input Support**
+### **Voice Input Support**
 - Voice-to-text functionality for data entry
 - Supports patient details, symptoms, and notes
 - Reduces typing effort for field workers
 
-### 🌐 **Multilingual Support**
+### **Multilingual Support**
 - Supports 4 Indian languages: English, Hindi, Tamil, Telugu
 - Easy language switching in settings
 - Localized UI elements and content
 
-### 🔔 **Smart Reminders**
+### **Smart Reminders**
 - Vaccination schedule reminders
 - ANC (Antenatal Care) check-up alerts
 - Follow-up visit notifications
 - Priority-based reminder system
 
-### 👥 **Role-Based Dashboards**
+### **Role-Based Dashboards**
 - **ASHA Workers**: View assigned patients, add visit data, manage reminders
 - **PHC Staff**: Access complete EHRs, review synced data, analytics dashboard
 - **Admin**: System management and user administration
 
-### 🔐 **Data Security**
+### **Data Security**
 - End-to-end encryption for sensitive data
 - Secure local storage using Android Keystore
 - Encrypted shared preferences for app settings
 
-### 🔄 **Auto-Sync Mechanism**
+### **Auto-Sync Mechanism**
 - Background synchronization with remote servers
 - Conflict resolution for offline/online data
 - Sync status monitoring and error handling
 
-## 🎨 UI/UX Design
+## UI/UX Design
 
 ### Color Palette
 - **Primary Blue**: #1976D2 (Professional, trustworthy)
@@ -63,7 +63,7 @@ A lightweight Android mobile application designed for ASHA workers and PHC staff
 - Optimized for low-end Android devices
 - Intuitive navigation with role-based access
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### **Tech Stack**
 - **Language**: Kotlin
@@ -94,7 +94,7 @@ A lightweight Android mobile application designed for ASHA workers and PHC staff
 - `SyncService`: Background sync operations
 - `LocalizationManager`: Multilingual support
 
-## 📱 Screens Overview
+## Screens Overview
 
 ### 1. **Login Screen**
 - Username/password authentication
@@ -136,7 +136,7 @@ A lightweight Android mobile application designed for ASHA workers and PHC staff
 - Voice input settings
 - Data management options
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Android Studio Arctic Fox or later
@@ -156,7 +156,7 @@ A lightweight Android mobile application designed for ASHA workers and PHC staff
 - `ACCESS_NETWORK_STATE`: For connectivity monitoring
 - `POST_NOTIFICATIONS`: For reminder notifications
 
-## 🚀 Key Features Implementation
+## Key Features Implementation
 
 ### Offline Storage
 ```kotlin
@@ -207,7 +207,7 @@ class SyncService : Service() {
 }
 ```
 
-## 🌍 Multilingual Support
+## Multilingual Support
 
 The app supports multiple Indian languages:
 - **English**: Default language
@@ -217,14 +217,14 @@ The app supports multiple Indian languages:
 
 Language switching is available in Settings with real-time UI updates.
 
-## 🔒 Security Features
+## Security Features
 
 - **Data Encryption**: All sensitive data encrypted using Android Keystore
 - **Secure Storage**: Encrypted SharedPreferences for app settings
 - **Permission Management**: Granular permission handling
 - **Data Validation**: Input validation and sanitization
 
-## 📊 Data Models
+## Data Models
 
 ### Core Entities
 - **User**: ASHA workers, PHC staff, administrators
@@ -233,7 +233,7 @@ Language switching is available in Settings with real-time UI updates.
 - **Reminder**: Vaccination schedules, check-ups, follow-ups
 - **SyncLog**: Synchronization history and status
 
-## 🔄 Sync Strategy
+## Sync Strategy
 
 1. **Offline First**: All data stored locally
 2. **Incremental Sync**: Only changed records synchronized
@@ -241,7 +241,7 @@ Language switching is available in Settings with real-time UI updates.
 4. **Retry Logic**: Automatic retry on sync failures
 5. **Status Monitoring**: Real-time sync status updates
 
-## 🎯 Target Use Cases
+## Target Use Cases
 
 ### For ASHA Workers
 - Register new patients in the field
@@ -255,7 +255,7 @@ Language switching is available in Settings with real-time UI updates.
 - Generate reports and analytics
 - Manage user accounts and permissions
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - Integration with national health programs (Ayushman Bharat, RCH Portal)
 - Advanced analytics and reporting
@@ -264,11 +264,11 @@ Language switching is available in Settings with real-time UI updates.
 - Barcode/QR code scanning for patient identification
 - Photo capture for medical records
 
-## 📄 License
+## License
 
 This project is developed for healthcare purposes in rural India. Please ensure compliance with local healthcare data regulations and privacy laws.
 
-## 🤝 Contributing
+## Contributing
 
 This is a healthcare application designed for ASHA workers and PHC staff. Contributions should focus on:
 - Improving offline functionality
@@ -277,7 +277,7 @@ This is a healthcare application designed for ASHA workers and PHC staff. Contri
 - Optimizing for low-end devices
 - Strengthening data security
 
-## 📞 Support
+## Support
 
 For technical support or feature requests related to this EHR Companion app, please contact the development team.
 
