@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EHR Companion
 
 A lightweight Android mobile application designed for ASHA workers and PHC staff in rural India, focused on managing electronic health records (EHR) in low or no-internet environments.
@@ -283,3 +284,7 @@ For technical support or feature requests related to this EHR Companion app, ple
 ---
 
 **EHR Companion** - Empowering healthcare workers in rural India with technology that works offline and understands local needs.
+=======
+# ASHA-EHR-companion
+This repository contains the source code for an application designed for ASHA workers in India. 
+>>>>>>> a39245606d061444423b25080e30da77d4b3b246
