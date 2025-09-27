@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_info.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_warning.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_pending.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_pending.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_restore.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_restore.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_download.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_download.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/xml_backup_rules.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_sync.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_sync.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_check_circle.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/xml_data_extraction_rules.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.asha.ehr.app-merged_res-74:/drawable_ic_error.xml.flat",
+        "source": "com.asha.ehr.app-main-76:/drawable/ic_error.xml"
+    }
+]

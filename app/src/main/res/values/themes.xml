@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AshaEhr" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/primary_blue_variant</item>
+        <item name="colorAccent">@color/accent_pink</item>
+        <item name="android:statusBarColor">@color/primary_blue</item>
+    </style>
+</resources>

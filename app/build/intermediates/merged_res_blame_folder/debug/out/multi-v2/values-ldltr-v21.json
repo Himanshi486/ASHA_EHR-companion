@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.asha.ehr.app-mergeDebugResources-72:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/himanshi/.gradle/caches/transforms-3/29a0538d22a028db239e8b3dc1133969/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

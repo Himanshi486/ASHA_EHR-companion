@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color accent_pink
+color accent_pink_light
+color accent_pink_variant
+color background_white
+color error_red
+color on_surface_grey
+color primary_blue
+color primary_blue_light
+color primary_blue_variant
+color success_green
+color surface_grey
+color warning_orange
+drawable ic_check_circle
+drawable ic_download
+drawable ic_error
+drawable ic_info
+drawable ic_launcher_foreground
+drawable ic_pending
+drawable ic_restore
+drawable ic_sync
+drawable ic_warning
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.AshaEhr
+xml backup_rules
+xml data_extraction_rules
